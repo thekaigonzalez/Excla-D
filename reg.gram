@@ -1,0 +1,8 @@
+!.(define|print)
+!.(access) (name) (=> "ptr") (write|read|save)
+
+#<comment>
+
+@<mem>
+
+$<o>

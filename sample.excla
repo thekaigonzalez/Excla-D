@@ -1,0 +1,19 @@
+!define CXX BASIC_STREAM ;
+
+!print Hello, World! ;
+
+!access CXX => write ;
+
+if CXX is BASIC_STREAM then
+    !define helloworld Hello! ; 
+
+
+!define worldhello World! ;
+!access helloworld => write;
+!access worldhello => write;
+
+!print Hello again, welcome to my humble home! ;
+
+if helloworld is helloworld then
+
+!end ;
